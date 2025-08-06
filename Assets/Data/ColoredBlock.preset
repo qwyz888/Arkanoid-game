@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ColoredBlock
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 96df07466938f774e98b39270ed88c32, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Prefub
+    value: 
+    objectReference: {fileID: 2119898645470889084, guid: fa4f031435b52ec4a93c7ef027de2c50, type: 3}
+  - target: {fileID: 0}
+    propertyPath: Sprites.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'Sprites.Array.data[0]'
+    value: 
+    objectReference: {fileID: 21300000, guid: 165ec859c2007e3418c42083776b1685, type: 3}
+  - target: {fileID: 0}
+    propertyPath: 'Sprites.Array.data[1]'
+    value: 
+    objectReference: {fileID: 21300000, guid: 792024252b041134b8745f28f75474dc, type: 3}
+  - target: {fileID: 0}
+    propertyPath: 'Sprites.Array.data[2]'
+    value: 
+    objectReference: {fileID: 6348122946241642222, guid: 9cbb7e7533737544c8bbb8b1c9f3c812, type: 3}
+  - target: {fileID: 0}
+    propertyPath: BaseColor.r
+    value: 0.13919427
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: BaseColor.g
+    value: 0.8901961
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: BaseColor.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: BaseColor.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Score
+    value: 150
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []
+  m_CoupledType:
+    m_NativeTypeID: 0
+    m_ManagedTypePPtr: {fileID: 0}
+    m_ManagedTypeFallback: 
+  m_CoupledProperties: []
