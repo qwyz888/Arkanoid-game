@@ -92,6 +92,12 @@ Assets/
 4. Для гри — відкрити сцену `Menu` і натиснути Play.
 
 ---
+## Скриншоти гри 
+<img width="410" height="890" alt="choose_menu" src="https://github.com/user-attachments/assets/63c37ced-1493-45b5-9cd8-811a6206660a" />
+<img width="410" height="892" alt="menu" src="https://github.com/user-attachments/assets/ccc09e69-4af7-4077-bf7e-3d947d238d2f" />
+![gameplay](https://github.com/user-attachments/assets/1b3a5eec-5ce2-4224-8848-95a302ca7bb7)
+<img width="409" height="891" alt="gameplay" src="https://github.com/user-attachments/assets/63e7615e-a499-4806-9da6-06af2e18f1dc" />
+<img width="410" height="890" alt="settings_menu" src="https://github.com/user-attachments/assets/8183f416-42fe-4397-a6a5-41127430d5e0" />
 
 
 ## Ліцензія
