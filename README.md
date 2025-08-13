@@ -20,29 +20,30 @@ using ScriptableObjects for level/block data, simple progress saving, and basic 
 
 ### Project Structure
 
+```
 Assets/
-├─ Editor/ # Custom Level Editor
-│ └─ Scripts/
-│ ├─ LevelEditor.cs # EditorWindow — UI for creating/editing levels
-│ ├─ SceneEditor.cs # Interaction with SceneView
-│ ├─ SaveLevel.cs # Saving block positions into GameLevel
-│ └─ EditorData.cs # SO with block type sets
+├─ Editor/                     # Custom Level Editor
+│  └─ Scripts/
+│     ├─ LevelEditor.cs        # EditorWindow — UI for creating/editing levels
+│     ├─ SceneEditor.cs        # Working with SceneView
+│     ├─ SaveLevel.cs          # Logic for saving block locations in GameLevel
+│     └─ EditorData.cs         # SO for a set of block types
 ├─ Scripts/
-│ ├─ Ball/ # Ball logic
-│ ├─ BlockAndUFO/ # Blocks, composite pattern, UFO
-│ ├─ GameBonus/ # Power-ups / bonuses
-│ ├─ Level/ # Level management / progress saving
-│ ├─ Player/ # Paddle and input handling
-│ ├─ UI/ # UI windows, buttons, loading, settings
-│ ├─ AudioController.cs # Singleton for audio
-│ └─ ...
+│  ├─ Ball/                    # Ball logic
+│  ├─ BlockAndUFO/              # Blocks, composite pattern, UFO
+│  ├─ GameBonus/                # Power-ups / bonuses
+│  ├─ Level/                    # Level management / saving progress
+│  ├─ Player/                   # Platform and input
+│  ├─ UI/                       # UI windows, buttons, loading, settings
+│  ├─ AudioController.cs        # Singleton for sound
+│  └─ ...
 ├─ ScriptableObject/
-│ ├─ BlockData.cs
-│ ├─ ColoredBlock.cs
-│ └─ GameLevel.cs
-├─ Audio/ # SFX files
+│  ├─ BlockData.cs
+│  ├─ ColoredBlock.cs
+│  └─ GameLevel.cs
+├─ Audio/                       # SFX files
 
----
+```
 
 ### How the Game Works
 
@@ -94,8 +95,14 @@ To edit levels — open Window → Level Editor.
 
 To play — open the Menu scene and press Play.
 
-Screenshots
-<img width="410" height="890" alt="choose_menu" src="https://github.com/user-attachments/assets/63c37ced-1493-45b5-9cd8-811a6206660a" /> <img width="410" height="892" alt="menu" src="https://github.com/user-attachments/assets/ccc09e69-4af7-4077-bf7e-3d947d238d2f" /> <img width="409" height="891" alt="gameplay" src="https://github.com/user-attachments/assets/63e7615e-a499-4806-9da6-06af2e18f1dc" /> <img width="410" height="890" alt="settings_menu" src="https://github.com/user-attachments/assets/8183f416-42fe-4397-a6a5-41127430d5e0" />
+## Screenshots
+
+<img width="410" height="890" alt="choose_menu" src="https://github.com/user-attachments/assets/63c37ced-1493-45b5-9cd8-811a6206660a" />
+<img width="410" height="892" alt="menu" src="https://github.com/user-attachments/assets/ccc09e69-4af7-4077-bf7e-3d947d238d2f" />
+<img width="409" height="891" alt="gameplay" src="https://github.com/user-attachments/assets/63e7615e-a499-4806-9da6-06af2e18f1dc" />
+<img width="410" height="890" alt="settings_menu" src="https://github.com/user-attachments/assets/8183f416-42fe-4397-a6a5-41127430d5e0" />
+
+![gameplay](https://github.com/user-attachments/assets/1b3a5eec-5ce2-4224-8848-95a302ca7bb7)
 
 
 License
